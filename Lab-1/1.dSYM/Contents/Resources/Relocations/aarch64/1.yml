@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zhengyunkun/Desktop/all_files/coding_files/ICS-HUST/Lab-1/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000356C, symSize: 0x348 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _old_s, symObjAddr: 0x662C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _new_s, symObjAddr: 0x6E9C, symBinAddr: 0x100008870, symSize: 0x0 }
+  - { offsetInCU: 0x2CEE, offset: 0x2CEE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000356C, symSize: 0x348 }
+  - { offsetInCU: 0x2D70, offset: 0x2D70, size: 0x8, addend: 0x0, symName: __Z23pack_student_bytebybyteP7studentiPc, symObjAddr: 0x348, symBinAddr: 0x1000038B4, symSize: 0x2AC }
+  - { offsetInCU: 0x2E28, offset: 0x2E28, size: 0x8, addend: 0x0, symName: __Z18pack_student_wholeP7studentiPc, symObjAddr: 0x5F4, symBinAddr: 0x100003B60, symSize: 0x158 }
+  - { offsetInCU: 0x2E9A, offset: 0x2E9A, size: 0x8, addend: 0x0, symName: __Z13print_messagePci, symObjAddr: 0x74C, symBinAddr: 0x100003CB8, symSize: 0x11C }
+  - { offsetInCU: 0x2EF0, offset: 0x2EF0, size: 0x8, addend: 0x0, symName: __Z15restore_studentPciP7student, symObjAddr: 0x868, symBinAddr: 0x100003DD4, symSize: 0x128 }
+...
