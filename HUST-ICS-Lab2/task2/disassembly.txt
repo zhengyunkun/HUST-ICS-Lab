@@ -1,0 +1,29 @@
+
+task2:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000401000 <main>:
+  401000:	be 00 00 00 00       	mov    $0x0,%esi
+  401005:	bf 00 00 00 00       	mov    $0x0,%edi
+  40100a:	bb 00 00 00 00       	mov    $0x0,%ebx
+  40100f:	ba 00 00 00 00       	mov    $0x0,%edx
+  401014:	b9 0a 00 00 00       	mov    $0xa,%ecx
+
+0000000000401019 <lopa>:
+  401019:	67 8a 86 00 20 40 00 	mov    0x402000(%esi),%al
+  401020:	67 88 87 0a 20 40 00 	mov    %al,0x40200a(%edi)
+  401027:	fe c0                	inc    %al
+  401029:	67 88 83 14 20 40 00 	mov    %al,0x402014(%ebx)
+  401030:	04 03                	add    $0x3,%al
+  401032:	67 88 82 1e 20 40 00 	mov    %al,0x40201e(%edx)
+  401039:	ff c6                	inc    %esi
+  40103b:	ff c7                	inc    %edi
+  40103d:	ff c3                	inc    %ebx
+  40103f:	ff c2                	inc    %edx
+  401041:	ff c9                	dec    %ecx
+  401043:	75 d4                	jne    401019 <lopa>
+  401045:	b8 01 00 00 00       	mov    $0x1,%eax
+  40104a:	bb 00 00 00 00       	mov    $0x0,%ebx
+  40104f:	cd 80                	int    $0x80
